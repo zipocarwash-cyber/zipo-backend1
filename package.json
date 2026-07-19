@@ -1,0 +1,23 @@
+{
+  "name": "zipo-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the ZIPO car detailing site — site content, bookings, admin auth, and PhonePe payments.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@phonepe-pg/pg-sdk-node": "^2.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.11.0",
+    "mongoose": "^8.5.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
